@@ -33,10 +33,41 @@
           "blog_show_excerpt": true,
           "show_view_all": false
         }
+      },
+      "1626167709be6b6b57": {
+        "type": "gallery",
+        "blocks": {
+          "1626167709be6b6b57-0": {
+            "type": "image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "1626167709be6b6b57-1": {
+            "type": "image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "1626167709be6b6b57-2": {
+            "type": "image",
+            "settings": {
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1626167709be6b6b57-0",
+          "1626167709be6b6b57-1",
+          "1626167709be6b6b57-2"
+        ],
+        "settings": {
+        }
       }
     },
     "content_for_index": [
-      "1626024167d7613bab"
+      "1626024167d7613bab",
+      "1626167709be6b6b57"
     ]
   }
 }
