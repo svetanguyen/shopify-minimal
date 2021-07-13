@@ -31,6 +31,7 @@ var afterResize = (function() {
     t[uniqueId] = setTimeout(callback, ms);
   };
 })();
+console.log(`i'm hungry`);
 
 window.theme = window.theme || {};
 
