@@ -6,7 +6,6 @@ const concat = require('gulp-concat')
 const babel = require('gulp-babel');
 
 
-
 function scss() {
 	return src('src/**.scss') // source file
 		.pipe(sass()) //scss -> css
@@ -26,8 +25,11 @@ function babeljs() {
 		.pipe(dest('assets'))
 }
 
-
 exports.scss = scss
 exports.babeljs = babeljs
 
 exports.build = series(scss, babeljs)
+exports.watch = function() {
+	watch('./src/**.js', babeljs);
+	watch('src/**.scss', scss)
+}
