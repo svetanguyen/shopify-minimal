@@ -1,0 +1,42 @@
+{
+  "current": {
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "header_search_enable": false,
+          "logo_max_width": "450",
+          "nav_menu": "main-menu",
+          "nav_below_logo": false,
+          "left_aligned_logo": false,
+          "show_header_lines": false,
+          "show_announcement": true,
+          "header_text": "Announce something here",
+          "announcement_link": ""
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "show_methods_of_payment": false
+        }
+      },
+      "1626024167d7613bab": {
+        "type": "featured-blog",
+        "settings": {
+          "title": "Blog",
+          "blog": "news",
+          "post_limit": 3,
+          "blog_show_date": true,
+          "blog_show_author": false,
+          "blog_show_image": false,
+          "blog_show_excerpt": true,
+          "show_view_all": false
+        }
+      }
+    },
+    "content_for_index": [
+      "1626024167d7613bab"
+    ]
+  }
+}
